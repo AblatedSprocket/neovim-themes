@@ -100,7 +100,7 @@ endfunction
 call s:h('Bold',                       '',               '',               'bold',      '')
 call s:h('Debug',                      s:yellow,         '',               '',          '')
 call s:h('Directory',                  s:blue,           '',               '',          '')
-call s:h('ErrorMsg',                   s:dark_red,       '',               '',          '')
+call s:h('ErrorMsg',                   s:black,          s:red,            '',          '')
 call s:h('Exception',                  s:purple,         '',               '',          '')
 call s:h('FoldColumn',                 s:comment_gray,   '',               '',          '')
 call s:h('Folded',                     s:comment_gray,   s:gutter_fg_gray, s:italic,    '')
